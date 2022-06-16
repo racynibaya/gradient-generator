@@ -17215,6 +17215,8 @@
 var _ = require('lodash');
 
 const array = [1, 2, 3, 4, 5, 6];
+const deepArray = [[1, 2, [3, [4], [5, 6]]]];
+console.log(_.flattenDeep(deepArray));
 console.log(_.without(array, 3));
 
 var css = document.querySelector('h3');
@@ -17234,5 +17236,12 @@ color1.addEventListener('input', setGradient);
 color2.addEventListener('input', setGradient);
 
 direction.addEventListener('change', setGradient);
+
+// "dependencies": {
+//   "lodash": "^4.17.21"
+//    semver: 4 = major release
+//           17 = minor release
+//           21 = patch release (fixing bugs)
+// }
 
 },{"lodash":1}]},{},[2]);

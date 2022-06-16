@@ -1,6 +1,8 @@
 var _ = require('lodash');
 
 const array = [1, 2, 3, 4, 5, 6];
+const deepArray = [[1, 2, [3, [4], [5, 6]]]];
+console.log(_.flattenDeep(deepArray));
 console.log(_.without(array, 3));
 
 var css = document.querySelector('h3');
