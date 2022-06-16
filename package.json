@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/racynibaya/gradient-generator/issues"
   },
-  "homepage": "https://github.com/racynibaya/gradient-generator#readme"
+  "homepage": "https://github.com/racynibaya/gradient-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
