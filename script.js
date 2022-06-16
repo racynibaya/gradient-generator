@@ -20,3 +20,10 @@ color1.addEventListener('input', setGradient);
 color2.addEventListener('input', setGradient);
 
 direction.addEventListener('change', setGradient);
+
+// "dependencies": {
+//   "lodash": "^4.17.21"
+//    semver: 4 = major release
+//           17 = minor release
+//           21 = patch release (fixing bugs)
+// }
